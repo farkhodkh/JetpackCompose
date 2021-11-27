@@ -8,7 +8,9 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.Text
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import com.example.jetpackcompose.ui.theme.AppNavGraph
 import com.example.jetpackcompose.ui.theme.ApplicationTheme
@@ -17,6 +19,8 @@ import com.google.accompanist.navigation.material.ExperimentalMaterialNavigation
 
 class MainActivity : ComponentActivity() {
 
+    @ExperimentalMaterial3Api
+    @ExperimentalComposeUiApi
     @ExperimentalMaterialNavigationApi
     @ExperimentalMaterialApi
     @ExperimentalAnimationApi

@@ -3,7 +3,9 @@ package com.example.jetpackcompose.ui.theme
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.ModalBottomSheetLayout
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.navigation.plusAssign
 import com.example.jetpackcompose.ui.login.LoginScreen
 import com.example.jetpackcompose.ui.main.MainView
@@ -14,6 +16,8 @@ import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.google.accompanist.navigation.material.ExperimentalMaterialNavigationApi
 import com.google.accompanist.navigation.material.rememberBottomSheetNavigator
 
+@ExperimentalMaterial3Api
+@ExperimentalComposeUiApi
 @ExperimentalMaterialNavigationApi
 @ExperimentalAnimationApi
 @ExperimentalMaterialApi
